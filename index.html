@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Campanha de Coleta de Lixo Eletrônico - Senac RN Mossoró 1º Ano B">
+    <title>Campanha de Coleta de Lixo Eletrônico | Senac RN Mossoró</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Senac RN Mossoró</h1>
+                <p class="subtitle">1º Ano B - Campanha Sustentável</p>
+            </div>
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#como-funciona">Como Funciona</a>
+                <a href="#formulario">Contribuir</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h2 class="hero-title">Coleta de Lixo Eletrônico</h2>
+                <p class="hero-description">
+                    Juntos por um futuro mais sustentável! Participe da nossa campanha 
+                    de coleta e reciclagem de equipamentos eletrônicos.
+                </p>
+                <a href="#formulario" class="btn btn-primary">Quero Contribuir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Campanha -->
+    <section id="sobre" class="section section-white">
+        <div class="container">
+            <h2 class="section-title">Sobre a Campanha</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        A campanha de coleta de lixo eletrônico do <strong>Senac RN Mossoró - 1º Ano B</strong> 
+                        tem como objetivo conscientizar a comunidade sobre a importância do descarte correto 
+                        de equipamentos eletrônicos.
+                    </p>
+                    <p>
+                        Visitamos escolas da região para coletar dispositivos eletrônicos em desuso, 
+                        como computadores, celulares, tablets, teclados, mouses e outros equipamentos. 
+                        Todo o material coletado é analisado e, quando possível, reutilizado ou 
+                        encaminhado para reciclagem adequada.
+                    </p>
+                    <p>
+                        <strong>Nossa missão:</strong> Reduzir o impacto ambiental causado pelo descarte 
+                        inadequado de eletrônicos e promover a economia circular.
+                    </p>
+                </div>
+                <div class="content-image">
+                    <img src="images/collection.webp" alt="Coleta de lixo eletrônico">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="section section-blue">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Coleta nas Escolas</h3>
+                    <p>
+                        Visitamos escolas parceiras para recolher equipamentos eletrônicos 
+                        que não são mais utilizados.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Análise e Triagem</h3>
+                    <p>
+                        Todos os equipamentos coletados são analisados para identificar 
+                        possibilidades de reutilização ou reciclagem.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Reutilização</h3>
+                    <p>
+                        Equipamentos em bom estado são restaurados e doados para 
+                        instituições que necessitam.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Reciclagem</h3>
+                    <p>
+                        Materiais que não podem ser reutilizados são encaminhados para 
+                        reciclagem responsável.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto -->
+    <section class="section section-white">
+        <div class="container">
+            <h2 class="section-title">Nosso Impacto</h2>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Equipamentos Coletados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">Escolas Visitadas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="45">0</div>
+                    <div class="stat-label">Equipamentos Reutilizados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="formulario" class="section section-orange">
+        <div class="container">
+            <h2 class="section-title">Informe Lixo Eletrônico Coletado</h2>
+            <p class="form-intro">
+                Ajude-nos a registrar os equipamentos coletados preenchendo o formulário abaixo:
+            </p>
+            <form id="formColeta" class="form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input 
+                            type="text" 
+                            id="nome" 
+                            name="nome" 
+                            required 
+                            placeholder="Digite seu nome completo"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required 
+                            placeholder="seuemail@exemplo.com"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="escola">Escola/Instituição *</label>
+                        <input 
+                            type="text" 
+                            id="escola" 
+                            name="escola" 
+                            required 
+                            placeholder="Nome da escola ou instituição"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input 
+                            type="tel" 
+                            id="telefone" 
+                            name="telefone" 
+                            placeholder="(84) 99999-9999"
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipoEquipamento">Tipo de Equipamento *</label>
+                    <select id="tipoEquipamento" name="tipoEquipamento" required>
+                        <option value="">Selecione o tipo de equipamento</option>
+                        <option value="computador">Computador/Notebook</option>
+                        <option value="celular">Celular/Tablet</option>
+                        <option value="perifericos">Periféricos (Mouse, Teclado, etc.)</option>
+                        <option value="monitor">Monitor</option>
+                        <option value="impressora">Impressora</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade *</label>
+                        <input 
+                            type="number" 
+                            id="quantidade" 
+                            name="quantidade" 
+                            min="1" 
+                            required 
+                            placeholder="Quantidade de itens"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="estado">Estado do Equipamento *</label>
+                        <select id="estado" name="estado" required>
+                            <option value="">Selecione o estado</option>
+                            <option value="funcionando">Funcionando</option>
+                            <option value="parcialmente">Parcialmente Funcionando</option>
+                            <option value="nao-funciona">Não Funciona</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="observacoes">Observações</label>
+                    <textarea 
+                        id="observacoes" 
+                        name="observacoes" 
+                        rows="4" 
+                        placeholder="Informações adicionais sobre o equipamento coletado"
+                    ></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Enviar Informações</button>
+                    <button type="reset" class="btn btn-secondary">Limpar Formulário</button>
+                </div>
+            </form>
+            <div id="mensagemSucesso" class="mensagem-sucesso">
+                ✓ Informações enviadas com sucesso! Obrigado por contribuir com nossa campanha.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Senac RN Mossoró</h3>
+                    <p>Campanha de Coleta de Lixo Eletrônico</p>
+                    <p class="footer-year">1º Ano B - 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>
+                        <strong>E-mail:</strong><br>
+                        <a href="mailto:contato@rn.senac.br">contato@rn.senac.br</a>
+                    </p>
+                    <p>
+                        <strong>Instagram:</strong><br>
+                        <a href="https://instagram.com/senacrn" target="_blank" rel="noopener">@senacrn</a>
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Participe</h3>
+                    <p>Ajude a construir um futuro mais sustentável!</p>
+                    <a href="#formulario" class="btn btn-small">Contribuir Agora</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Senac RN Mossoró - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
